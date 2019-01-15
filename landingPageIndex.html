@@ -6,33 +6,45 @@
   <title>CrapMap Landing Page</title>
 </head>
 <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
   <h2>CrapMap &copy;</h2>
 
-    <section id="logo-container">
-      <div class="logo-image">
-      </div>
-    </section>
+  <section id="logo-container">
+    <div class="logo-image">
+    </div>
+  </section>
 
-    <section id="google-signup">
-      <div>
-        <!-- //sign up with google//  -->
-      </div>
-    </section>
+  <section id="google-signup">
+    <div class="container">
+      <form action="/action_page.php">
 
-    <section id="login-container">
-      <div class="button-container">
-        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-      </div>
+        <div class="row">
+          <h2 style="text-align:center">Login with Social Media or Manually</h2>
+          <a href="#" class="google btn textalign-center"><i class="fa fa-google fa-fw">
+            </i> Login with Google+
+          </a>
+        </div>
+      </form>
+    </div>
 
-      <div id="id01" class="modal">
-        
+
+  </section>
+
+  <section id="login-container">
+
+    <div class="button-container">
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    </div>
+
+    <div id="id01" class="modal">
+
       <form class="modal-content animate" action="/action_page.php">
 
         <div class="imgcontainer">
-          <span onclick="document.getElementById('id01').style.display='none'"
-          class="close" title="Close Modal">&times;</span>
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
           <img src="img_avatar2.png" alt="Avatar" class="avatar">
         </div>
 
@@ -57,7 +69,8 @@
         </div>
 
       </form>
-    </section>
+    </div>
+  </section>
 
 </body>
 
