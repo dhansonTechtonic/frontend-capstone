@@ -3,7 +3,6 @@
   Verdigris: #57bab5;
 */
 
-
 .hamburger-menu-modal {
   background-image: linear-gradient(to bottom right, #66d7d1, #57bab5);
   border-color: white;
@@ -14,4 +13,11 @@
   height: 11em;
   padding: 8px 8px;
   width: 14em;
+}
+
+.search-bar {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 0px 1.5px 0px;
+  padding-bottom: 8px;
 }
