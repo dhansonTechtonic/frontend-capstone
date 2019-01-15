@@ -1,0 +1,71 @@
+Application Map
+
+MVP Modals/Views
+
+Landing Page
+	Simple sign up or login(redirect to sign on view). Blurred map and logo. Once logged in or sign up is complete, redirect to Main Map view with location markers. Should default to pin showing current location.
+
+Sign On - sign up with google or email or login for returning users
+
+Main Map with markers
+	Pin showing current location of user.
+	Hamburger menu on top right
+	Add Button near bottom right.
+
+>>>Click on Pin
+	Pin Postings: Picture, Size, Title of item, Directions from my current location (does this open up a seperate window, or does this show directions within the application?).
+		Dibs! Mark as mine! As soon as this is done, listing is destroyed.
+		Pass...looks like absolute junk. Leaves post, but removes from users view.
+
+>>>Add/Edit/Cancel - only edit if proper permissions.
+	Photo
+		Upload or connect to camera in mobile
+	Title text field
+	Location - enter address (autocomplete is so nice) or by current location
+Category - clickable icons that are predefined
+	//Listing Description - short text field
+	Size Icons - selectable
+	Post it and view!
+
+Nav Bar for browser + Nav hamburger for mobile
+	Search text field based on title or category autocomplete
+	My Stuff
+		View my stuff
+			My Posts Thumbnail
+				Edit/Delete my listings
+	Settings
+		Notification status - on or off, check listings for expiration (timer?)
+		My Profile
+			Delete Profile
+			Edit location
+Set radius, set home location, turn off location services.
+	Logout - redirect to landing page.
+
+
+
+Tech:
+Geolocation - https://leafletjs.com or https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+Photo connection - upload image, or connect to mobile camera
+NoSQL Database that updates in real time as listings are created/destroyed...MongoDB?
+	User and Listings DB
+
+
+Nice to haves or future features:
+	Chat or message function to contact lister. Security/privacy in mind, no phone numbers.
+	Share feature - send or share a listing to a friend in need of a new used whatever.
+	Trade my stuff for your stuff.
+	Rate the lister/user - users with multiple listings can be rated on how good their stuff is.
+	Some type of analytics would be cool……?
+	Popup with street view for location.
+
+Things to consider:
+Cross device compatibility: web to tablet to mobile...mobile being primary.
+Seamless integration and navigation around application. Nothing should be hard to access or find. Intuitive navigation with simple design interface.
+No dead ends - redirect or close out of modal or views. User should never be stuck in a screen.
+Browser compatibility. Some APIs or services will work in one device or browser and not another.
+Error handling.
+Testing.
+
+Concerns:
+Security and privacy - may not be a good idea to list a house number (or phone number) of lister….? Maybe just list general area. I never uber to my direct house location….always an address in vicinity. Maintains anonymity and protects user. Maybe advise users to never post their personal address….
+Geolocation should have the option of being toggled.
