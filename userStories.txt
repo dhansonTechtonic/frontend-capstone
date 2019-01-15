@@ -1,0 +1,44 @@
+User Stories:
+
+Primary User - Basic Account Creation
+As a Primary User, I would like to create an account and sign in using google.
+
+Primary User - Home Screen
+	As a Primary User, I would like to land on a clear map populated by pins.
+
+Primary User - hamburger
+	As a Primary User, I expect that the menu will drop down and let me search through the posted listings, as well as go to different pertinent pages i.e. I want to be able to access my listings that I’ve posted, I want to be able to access the settings menu. I’d also expect to be able to log out from here.
+
+Primary User - New Pin
+	As a Primary User, I would like to hit the + button at the bottom of the screen, bringing up the popup to place a new pin. The new pin popup will ask for an item category - indicated by icons - a title, address, size and relevant description tags. I will be able to add a picture to my post and then hit the post button, taking me back to the map, now centered on the new pin.
+
+Primary User - Edit Pin
+	As a Primary User,  I want to be able to see options to change my listing size, tag, title, location, item size, and keyword tags. I want to update the listing picture or delete the listing. I want to be able to exit out of the pin without saving, or save and exit out of the listing.
+
+Primary User - Settings
+	As a Primary User, I would expect the settings to contain the option to turn my notifications on/off. I’d also want to change the range of viewable items on the map. I’d also like the ability to delete/disassociate my account.
+
+Primary User - My Listings
+	As a Primary User, I want to see a list of all of my currently active listings, with their thumbnail, title and location, followed by an edit button, taking me to the edit pin popup.
+
+Primary User - Pin blow up
+	As a Primary User, I want to see the post title, a picture of the item, item size, and keywords. I would like to be able to exit out of the listing.
+
+Primary User - Pin Blow Up ‘owner’
+	As a Primary User, if I own the listing, I want to see a button to edit the posting. Otherwise the ‘pin blow up’ will be the same.
+
+Admin User - Landing Page
+	As an Admin User, I would like to have a homepage that displays my programs.
+
+Admin User - Program Setup
+	As an Admin User, I would like the ability to set up a custom program for a primary user to select.
+
+Admin User - Admin Selection
+	As an Admin User, I would like the ability to assign an Admin to the program.
+
+Admin User - Student Roster
+	As an Admin User, I would like the ability to access a student roster to add to the program.
+
+
+Admin User - Milestone Roadmap Authoring
+	As an Admin User, I would like the ability to choose from a bucket of pre-authored Milestones or create custom Milestones to use in creating my program.
