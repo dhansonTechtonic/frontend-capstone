@@ -16,23 +16,6 @@
   width: 14em;
 }
 
-.hamburger-menu-modal > div > h2 {
-  border-color: white;
-  border-style: solid;
-  border-width: 0px 0px 1.5px 0px;
-  color: white;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  margin: 0 auto;
-  padding: 6px 0px;
-  text-align: center;
-  text-shadow: 1px 1px 4px black;
-}
-
-.hamburger-menu-modal .log-out-link > h2 {
-  border-width: 0px;
-}
-
 .search-bar {
   position: relative;
 }
@@ -48,10 +31,27 @@
   width: 19.7em;
 }
 
+.hamburger-menu-modal > div > h2 {
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 0px 1.5px 0px;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 6px 0px;
+  text-align: center;
+  text-shadow: 1px 1px 4px black;
+}
+
 .search-bar .fa-search {
   color: gray;
   font-size: 15px;
   left: 7px;
   position: absolute;
   top: 4px;
+}
+
+.hamburger-menu-modal .log-out-link > h2 {
+  border-width: 0px;
 }
