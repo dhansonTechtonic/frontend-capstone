@@ -72,6 +72,7 @@ body {
 
 .footer button {
   height: 100%;
+  cursor: pointer;
 }
 
 #image-button {
@@ -90,4 +91,8 @@ body {
 
 #tags {
   height: 100px;
+}
+
+.fas {
+  cursor: pointer;
 }
