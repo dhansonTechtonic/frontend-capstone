@@ -3,17 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Settings Page</title>
-    <link rel="stylesheet" type="text/css" href="settings-page.html">
+    <link rel="stylesheet" type="text/css" href="settingsPage.css">
   </head>
-  <body>
+  <body class="body-flex">
     <div class="title-exit-button-container">
-      <h1> Settings </h1>
-      <button href="#">Exit</button>
+      <div class="title-exit-button-flex-group">
+        <h1> Settings </h1>
+        <button href="#">Exit</button>
+      </div>
+      <div class="seperator"></div>
     </div>
     <div class="settings-container">
+      <span class="slider-label">Search Radius </span>
       <div class="slide-container">
-        <input type="range" min="1" max="100" value="50" class="slider" id="locatin-range">
+        <input type="range" list="range">
       </div>
     </div>
+    <div class="form-container">
+      <div class="seperator"></div>
+      <form class="settings-checkbox">
+        Notifications <input type="checkbox" name="notificationCheckbox" value="notifications">
+      </form>
+      <div class="seperator"></div>
+    </div>
+    <button class="delete-account-button"> Delete Account </button>
   </body>
 </html>
