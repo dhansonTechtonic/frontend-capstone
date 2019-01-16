@@ -95,6 +95,13 @@ hr {
   margin-top: 10px;;
   margin-left: 3%;
   margin-right: 3%;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#post-button:hover {
+  background-color: white;
+  color: #2E2D31;
 }
 
 #tags {
@@ -120,4 +127,49 @@ input {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#couch-button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#couch-button:hover {
+  color: #ff4700;
+}
+
+#car-button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#car-button:hover {
+  color: #80334f;
+}
+
+#sports-button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#sports-button:hover {
+  color: #5200e8;
+}
+
+#tv-button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#tv-button:hover {
+  color: #467290;
+}
+
+#random-button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#random-button:hover {
+  color: #00ffde;
 }
