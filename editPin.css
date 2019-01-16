@@ -91,6 +91,7 @@ hr {
   border: 2px solid white;
   border-radius: 40px;
   margin-top: 20px;
+  margin-right: 10px;
 }
 
 #tags {
@@ -120,4 +121,5 @@ input {
   color: white;
   font-size: 50px;
   margin-right: 20px;
+  margin-left: 10px;
 }
