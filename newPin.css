@@ -75,8 +75,8 @@ hr {
 }
 
 #image-button {
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: 10%;
   font-size: 50px;
   background-color: transparent;
   border: none;
@@ -99,6 +99,7 @@ hr {
 
 #tags {
   height: 100px;
+  margin-left: 10%;
 }
 
 
