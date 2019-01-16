@@ -1,7 +1,7 @@
 body {
   height: 100%;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: #2E2D31;
 }
 
@@ -54,6 +54,7 @@ hr {
   flex: 1;
   height: 30px;
   border: 2px solid white;
+  color: white;
 }
 
 .size-card button{
@@ -90,7 +91,7 @@ hr {
   font-size: 20px;
   border: 2px solid white;
   border-radius: 40px;
-  margin-top: 20px;
+  margin-top: 10px;;
 }
 
 #tags {
@@ -111,5 +112,6 @@ input {
 }
 
 .container {
-  overflow: hidden;
+  min-width: 300px;
+  max-width: 600px;
 }
