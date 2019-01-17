@@ -1,17 +1,20 @@
-body {
+body
+{
   margin: 0;
   font-family: 'Nunito', sans-serif;
   background-color: #2E2D31;
 }
 
-input {
+input
+{
   background-color: transparent;
   color: white;
   font-size: 15px;
   padding-left: 10px;
 }
 
-h1 {
+h1
+{
   text-align: center;
   color: white;
   font-weight: lighter;
@@ -19,21 +22,24 @@ h1 {
   font-kerning: auto;
 }
 
-hr {
+hr
+{
   width: 90%;
   height: 2px;
   background-image: linear-gradient(260deg, #FF4700, #5200E8, #00FFDE);
   border: none;
 }
 
-.content {
+.content
+{
   display: flex;
   flex-direction: column;
   overflow: auto;
   color: #1c1c1c;
 }
 
-.card {
+.card
+{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +47,8 @@ hr {
 }
 
 
-.card input {
+.card input
+{
   flex: 1;
   height: 30px;
   border: 2px solid white;
@@ -49,7 +56,8 @@ hr {
   margin-right: 3%;
 }
 
-.size-card button{
+.size-card button
+{
   background-color: transparent;
   height: 80px;
   flex: 1;
@@ -58,33 +66,40 @@ hr {
   color: white;
 }
 
-.categories i {
+.categories i
+{
   font-size: 30px;
   flex: 1;
   color: white;
+  margin: 15px;
 }
 
-.fas {
+.fas
+{
   cursor: pointer;;
 }
 
-.container {
+.container
+{
   min-width: 300px;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#image-button {
+#image-button
+{
   margin-left: 10%;
   margin-right: 10%;
   font-size: 50px;
   background-color: transparent;
   border: none;
   color: white;
+  font-size:50px;
 }
 
-#post-button {
+#post-button
+{
   flex: 1;
   height: 60px;
   background-color: transparent;
@@ -101,17 +116,20 @@ hr {
   transition-duration: 0.3s;
 }
 
-#post-button:hover {
+#post-button:hover
+{
   background-color: white;
   color: limegreen;
 }
 
-#tags {
+#tags
+{
   height: 100px;
   margin-left: 10%;
 }
 
-#navbar {
+#navbar
+{
   display: flex;
   align-content: space-between;
   flex-direction: row;
@@ -119,54 +137,65 @@ hr {
   margin-right: 20px;
 }
 
-#navbar i {
+#navbar i
+{
   font-size: 30px;
   color: white;
   align-content: space-between;
   margin-left: auto;
 }
 
-#couch-button {
+#couch-button
+{
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-#couch-button:hover {
+#couch-button:hover
+{
   color: #ff4700;
 }
 
-#car-button {
+#car-button
+{
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-#car-button:hover {
+#car-button:hover
+{
   color: #80334f;
 }
 
-#sports-button {
+#sports-button
+{
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-#sports-button:hover {
+#sports-button:hover
+{
   color: #5200e8;
 }
 
-#tv-button {
+#tv-button
+{
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-#tv-button:hover {
+#tv-button:hover
+{
   color: #467290;
 }
 
-#random-button {
+#random-button
+{
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-#random-button:hover {
+#random-button:hover
+{
   color: #00ffde;
 }
