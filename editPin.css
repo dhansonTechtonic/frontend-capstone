@@ -5,19 +5,12 @@ body {
   background-color: #2E2D31;
 }
 
-#navbar {
-  display: flex;
-  align-content: space-between;
-  flex-direction: row;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#navbar i {
-  font-size: 30px;
+input {
+  background-color: transparent;
   color: white;
-  align-content: space-between;
-  margin-left: auto;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-left: 10px;
 }
 
 h1 {
@@ -73,6 +66,18 @@ hr {
   color: white;
 }
 
+.fas {
+  cursor: pointer;;
+}
+
+.container {
+  overflow: hidden;
+  min-width: 300px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #image-button {
   margin-left: auto;
   margin-right: 10%;
@@ -108,27 +113,20 @@ hr {
   margin-left: 10%;
 }
 
-
-.fas {
-  cursor: pointer;;
+#navbar {
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-input {
-  background-color: transparent;
+#navbar i {
+  font-size: 30px;
   color: white;
-  font-size: 15px;
-  font-weight: lighter;
-  padding-left: 10px;
-}
-
-.container {
-  overflow: hidden;
-  min-width: 300px;
-  max-width: 600px;
+  align-content: space-between;
   margin-left: auto;
-  margin-right: auto;
 }
-
 
 #trash-button {
   margin-top: 10px;
