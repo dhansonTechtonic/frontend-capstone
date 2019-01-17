@@ -1,5 +1,4 @@
 body {
-  height: 100%;
   margin: 0;
   font-family: 'Nunito', sans-serif;
   background-color: #2E2D31;
@@ -11,7 +10,7 @@ h1 {
   text-align: center;
   color: white;
   font-weight: lighter;
-  letter-spacing: 3px;
+  letter-spacing: .25em;
   font-kerning: auto;
 }
 
@@ -158,6 +157,7 @@ hr {
   font-size: 20px;
   border: 2px solid white;
   border-radius: 40px;
+  letter-spacing: .25em;
   margin-top: 10px;;
   margin-left: 3%;
   margin-right: 3%;
@@ -167,7 +167,7 @@ hr {
 
 #post-button:hover {
   background-color: white;
-  color: #2E2D31;
+  color: limegreen;
 }
 
 #tags {
