@@ -9,48 +9,42 @@
   }
   body {
     background-image: url("assets/mapPlaceHolder.png");
-    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
-    width:100vw;
     margin: 0;
+    width:100vw;
   }
 
   /* Navigation Bar */
   .navbar {
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 0;
-    height: 70px;
-    width: 100%;
     align-items: center;
-    font-size: 0.875rem;
-    opacity: 0.6;
     background-image: linear-gradient(260deg, #FF4700, #5200E8, #00FFDE);
+    display: flex;
+    font-size: 0.875rem;
+    height: 70px;
+    justify-content: flex-end;
+    opacity: 0.6;
+    padding-bottom: 0;
+    width: 100%;
   }
 
   .main-nav-list {
     display: flex;
-    margin-right: 50px;
     flex-direction: row;
     justify-content: flex-end;
     list-style-type: none;
-    text-decoration: none;
-  }
-
-  .main-nav li {
-    margin: 0;
-    color: white;
+    margin-right: 50px;
     text-decoration: none;
   }
 
   .nav-links {
-    margin-left: 40px;
     color: white;
+    letter-spacing: .25em;
+    margin-left: 40px;
     text-transform: capitalize;
     text-decoration: none;
-    letter-spacing: .25em;
   }
 
   .logo {
@@ -79,23 +73,23 @@
   /* Search bar */
   .main-search-list {
     display: flex;
-    margin-right: 50px;
     flex-direction: row;
     justify-content: flex-end;
     list-style-type: none;
+    margin-right: 50px;
     text-decoration: none;
   }
   .search-bar {
+    align-items: center;
+    background-color: #2E2D31;
     display: flex;
+    font-size: 14px;
+    height: 70px;
     justify-content: center;
     padding-bottom: 0;
-    height: 70px;
     width: 100%;
-    align-items: center;
-    font-size: 14px;
-    /* opacity: 0.7; */
-    background-color: #2E2D31;
   }
+
   .drop-shadow {
     -webkit-box-shadow: 0 8px 6px -6px #00FFDE;
     -moz-box-shadow: 0 8px 6px -6px #00FFDE;
@@ -104,89 +98,101 @@
   }
 
   input[type=text] {
-    width: 80%;
-    padding: 12px 20px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    border: none;
     border-radius: 25px;
+    box-sizing: border-box;
     display: flex;
+    margin: 0 auto;
+    padding: 12px 20px;
+    width: 80%;
   }
   /* End of search bar */
 
   /* Add new pin */
   .new-pin-button {
-    font-size: 5em;
-    color: white;
     background-image: linear-gradient(160deg, #FF4700, #5200E8, #00FFDE);
-    filter: drop-shadow(1px 1px 7px black);
-    /* border: 3px solid #2E2D31; */
     border-radius: 100px;
+    color: white;
+    filter: drop-shadow(1px 1px 7px black);
+    font-size: 5em;
     opacity: .7;
     padding: .05em;
   }
 
   /* pin marker styles  */
   .marker-style {
-    width: 50px;
-    height: 50px;
-    /* text-align: center; */
-    margin: 0 auto;
     filter: drop-shadow(1px 1px 3px #2E2D31);
-    /*
-    -webkit-text-fill-color: #2E2D31;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke:.5px #2E2D31; */
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+
   }
 
   .fa-gradient {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background: -webkit-gradient(linear, left top, left bottom, from(#FF4700), to(#00FFDE));
-	  -webkit-background-clip: text;
-	  -webkit-text-fill-color: transparent;
     font-size: 7em;
     filter: drop-shadow(6px -4px 3px #2E2D31);
   }
 
   button, input[type="submit"], input[type="reset"] {
 	  background: none;
+    border: none;
 	  color: inherit;
-	  border: none;
+    cursor: pointer;
+    font: inherit;
+    outline: inherit;
 	  padding: 0;
-	  font: inherit;
-	  cursor: pointer;
-	  outline: inherit;
   }
 
   .white {
-    font-size: 2em;
     color: white;
+    font-size: 2em;
   }
 
   .x-reversed {
+    color: white;
     font-size: 2em;
     justify-content: flex-end;
-    color: white;
   }
+
   .button-container {
+    align-items: flex-end;
     align-self: self-start;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     height: 75%;
+    justify-content: flex-end;
   }
-  .button-child { */
-    align-self: self-start;
+
+  .button-child {
+    align-items: flex-end;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    /* height: 80%; */
-    margin-right: 4%;
     margin-left: 4%;
+    margin-right: 4%;
+  }
+
+/* Navigation Bar */
+  .main-nav li {
+    color: white;
+    margin: 0;
+    text-decoration: none;
   }
 
 @media only screen and (max-width: 900px) {
+
+  .button-container {
+    height: 72%;
+  }
+
+  .main-nav-list {
+      margin-right: 2%;
+  }
+
   .logo {
-    top: 0px;
     margin-left: 0px;
+    top: 0px;
     width:225px;
   }
 
