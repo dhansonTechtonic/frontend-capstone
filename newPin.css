@@ -1,8 +1,8 @@
 body
 {
-  margin: 0;
-  font-family: 'Nunito', sans-serif;
   background-color: #2E2D31;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
 }
 
 input
@@ -15,33 +15,33 @@ input
 
 h1
 {
-  text-align: center;
   color: white;
   font-weight: lighter;
-  letter-spacing: .25em;
   font-kerning: auto;
+  letter-spacing: .25em;
+  text-align: center;
 }
 
 hr
 {
-  width: 90%;
-  height: 2px;
   background-image: linear-gradient(260deg, #FF4700, #5200E8, #00FFDE);
   border: none;
+  height: 2px;
+  width: 90%;
 }
 
 .content
 {
+  color: #1c1c1c;
   display: flex;
   flex-direction: column;
   overflow: auto;
-  color: #1c1c1c;
 }
 
 .card
 {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
   margin: 10px;
 }
@@ -49,9 +49,9 @@ hr
 
 .card input
 {
+  border: 2px solid white;
   flex: 1;
   height: 30px;
-  border: 2px solid white;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -59,18 +59,18 @@ hr
 .size-card button
 {
   background-color: transparent;
-  height: 80px;
-  flex: 1;
   border: none;
-  cursor: pointer;
   color: white;
+  cursor: pointer;
+  flex: 1;
+  height: 80px;
 }
 
 .categories i
 {
-  font-size: 30px;
-  flex: 1;
   color: white;
+  flex: 1;
+  font-size: 30px;
   margin: 15px;
 }
 
@@ -81,39 +81,39 @@ hr
 
 .container
 {
-  min-width: 300px;
-  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 600px;
+  min-width: 300px;
 }
 
 #image-button
 {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 50px;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 50px;
-  background-color: transparent;
-  border: none;
-  color: white;
-  font-size:50px;
 }
 
 #post-button
 {
-  flex: 1;
-  height: 60px;
   background-color: transparent;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
   border: 2px solid white;
   border-radius: 40px;
+  color: white;
+  flex: 1;
+  font-size: 20px;
+  font-weight: bold;
+  height: 60px;
   letter-spacing: .25em;
   margin-top: 10px;;
   margin-left: 3%;
   margin-right: 3%;
-  -webkit-transition-duration: 0.3s;
+
   transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
 }
 
 #post-button:hover
@@ -130,8 +130,8 @@ hr
 
 #navbar
 {
-  display: flex;
   align-content: space-between;
+  display: flex;
   flex-direction: row;
   margin-left: 20px;
   margin-right: 20px;
@@ -139,9 +139,9 @@ hr
 
 #navbar i
 {
-  font-size: 30px;
-  color: white;
   align-content: space-between;
+  color: white;
+  font-size: 30px;
   margin-left: auto;
 }
 
