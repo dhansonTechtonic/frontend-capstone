@@ -1,7 +1,3 @@
-html {
-  font-family: Nunito, sans-serif;
-}
-
 a {
   color: white;
 }
@@ -14,16 +10,6 @@ body {
   opacity: .99;
   z-index: -2;
   /* color: #2E2D31; */
-}
-
-input[type=text], input[type=password] {
-  width: 15em;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 2px solid black;
-  box-sizing: border-box;
-  border-radius: 25px;
 }
 
 /* Set a style for all buttons */
@@ -43,9 +29,25 @@ button:hover {
   border: 2px solid white;
 }
 
-.button-container {
+h2 {
   display: flex;
   justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 48px;
+}
+
+html {
+  font-family: Nunito, sans-serif;
+}
+
+input[type=text], input[type=password] {
+  width: 15em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 25px;
 }
 
 img {
@@ -53,16 +55,27 @@ img {
   height: 1.5em;
 }
 
-#login-container {
-  display: flex;
-  justify-content: center;
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  color: white;
 }
 
-h2 {
+span.psw {
+  float: right;
+  padding-top: 16px;
+  color: white;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.button-container {
   display: flex;
   justify-content: center;
-  font-family: 'Nunito', sans-serif;
-  font-size: 48px;
 }
 
 /* Extra styles for the cancel button */
@@ -78,6 +91,26 @@ h2 {
   margin: 15px;
 }
 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.fontsize {
+  font-size: 2em;
+  color: white;
+}
+
 /* Center the image and position the close button */
 .imgcontainer {
   text-align: center;
@@ -85,23 +118,11 @@ h2 {
   position: relative;
 }
 
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-  color: white;
-}
-
 /* .container {
   padding: 16px;
   display: flex;
   justify-content: center;
 } */
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-  color: white;
-}
 
 /* The Modal (background) */
 .modal {
@@ -137,28 +158,6 @@ span.psw {
   border-radius: 25px;
 }
 
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
 @-webkit-keyframes animatezoom {
   from {
     -webkit-transform: scale(0)
@@ -181,26 +180,8 @@ span.psw {
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-
-  .cancelbtn {
-    width: 100%;
-  }
-
-  /* style the container
-   .container {
-    position: relative;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px 0 30px 0;
-  } */
-
   /* style inputs and link buttons */
-  input,
-  .btn {
+  input, .btn {
     width: 100%;
     padding: 12px;
     border: none;
@@ -214,34 +195,8 @@ span.psw {
     /* remove underline from anchors */
   }
 
-  input:hover,
-  .btn:hover {
+  input:hover, .btn:hover {
     opacity: 1;
-  }
-
-  /* add appropriate colors to fb, twitter and google buttons */
-  .fb {
-    background-color: #3B5998;
-    color: white;
-  }
-
-  .twitter {
-    background-color: #55ACEE;
-    color: white;
-  }
-
-  .google {
-    padding: 12px 40px;
-    border: 2px solid #2E2D31;
-    border-radius: 25px;
-    background-color: white;
-    color: #2E2D31;
-    margin: 15px;
-  }
-
-  .center {
-    display: flex;
-    justify-content: center;
   }
 
   /* style the submit button */
@@ -255,8 +210,25 @@ span.psw {
     background-color: #5200E8;
   }
 
-  h2 {
+  span.psw {
+    display: block;
+    float: none;
+  }
 
+  /* bottom container */
+  .bottom-container {
+    text-align: center;
+    background-color: #666;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
   }
 
   /* Two-column layout */
@@ -266,6 +238,21 @@ span.psw {
     margin: auto;
     padding: 0 50px;
     margin-top: 6px;
+  }
+
+  /* changes properties for the google button */
+  .google {
+    padding: 12px 40px;
+    border: 2px solid #2E2D31;
+    border-radius: 25px;
+    background-color: white;
+    color: #2E2D31;
+    margin: 15px;
+  }
+
+  /* hide some text on medium and large screens */
+  .hide-md-lg {
+    display: none;
   }
 
   /* Clear floats after the columns */
@@ -294,65 +281,9 @@ span.psw {
     border-radius: 50%;
     padding: 8px 10px;
   }
-
-  /* hide some text on medium and large screens */
-  .hide-md-lg {
-    display: none;
-  }
-
-  /* bottom container */
-  .bottom-container {
-    text-align: center;
-    background-color: #666;
-    border-radius: 0px 0px 4px 4px;
-  }
 }
-  /* Responsive layout - when the screen is less than 1440px wide, make the two columns stack on top of each other instead of next to each other */
+  /* Responsive layout - when the screen is less than 14400px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 14400px) {
-  .col {
-    width: 100%;
-    margin-top: 0;
-  }
-
-    /* hide the vertical line */
-  .vl {
-    display: none;
-  }
-
-    /* show the hidden text on small screens */
-  .hide-md-lg {
-    display: block;
-    text-align: center;
-  }
-
-  span.psw {
-    display: block;
-    float: none;
-  }
-
-  .cancelbtn {
-    width: 10em;
-    color: white;
-    background-color: grey;
-    padding: 12px 40px;
-    border: 2px solid #2E2D31;
-    border-radius: 25px;
-    background-color: white;
-    color: #2E2D31;
-    margin: 15px;
-  }
-
-  /* style the container */ */
-   .container {
-    position: relative;
-    border-radius: 5px;
-    background-color: #5200E8;
-    padding: 20px 0 30px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
   /* style inputs and link buttons */
   input,
   .btn {
@@ -376,31 +307,6 @@ span.psw {
     opacity: 1;
   }
 
-  /* add appropriate colors to fb, twitter and  buttons */
-  .fb {
-    background-color: #3B5998;
-    color: white;
-  }
-
-  .twitter {
-    background-color: #55ACEE;
-    color: white;
-  }
-
-  .google {
-    padding: 12px 40px;
-    border: 2px solid #2E2D31;
-    border-radius: 25px;
-    background-color: white;
-    color: #2E2D31;
-    margin: 15px;
-  }
-
-  .center {
-    display: flex;
-    justify-content: center;
-  }
-
   /* style the submit button */
   input[type=submit] {
     background-color: #4CAF50;
@@ -412,45 +318,9 @@ span.psw {
     background-color: #45a049;
   }
 
-  /* Two-column layout */
-  .col {
-    float: left;
-    width: 50%;
-    margin: auto;
-    padding: 0 50px;
-    margin-top: 6px;
-  }
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  /* vertical line */
-  .vl {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    border: 2px solid #ddd;
-    height: 175px;
-  }
-
-  /* text inside the vertical line */
-  .vl-innertext {
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    padding: 8px 10px;
-  }
-
-  /* hide some text on medium and large screens */
-  .hide-md-lg {
-    display: none;
+  span.psw {
+    display: block;
+    float: none;
   }
 
   /* bottom container */
@@ -458,29 +328,6 @@ span.psw {
     text-align: center;
     background-color: #666;
     border-radius: 0px 0px 4px 4px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .col {
-    width: 100%;
-    margin-top: 0;
-  }
-
-    /* hide the vertical line */
-  .vl {
-    display: none;
-  }
-
-    /* show the hidden text on small screens */
-  .hide-md-lg {
-    display: block;
-    text-align: center;
-  }
-
-  span.psw {
-    display: block;
-    float: none;
   }
 
   .cancelbtn {
@@ -495,46 +342,28 @@ span.psw {
     margin: 15px;
   }
 
-  style the container */
-   .container {
-    position: relative;
-    border-radius: 5px;
-    background-color: #5200E8;
-    padding: 20px 0 30px 0;
+  .center {
+    display: flex;
+    justify-content: center;
   }
 
-  /* style inputs and link buttons */
-  input,
-  .btn {
+  .col {
     width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    margin: 5px 0;
-    opacity: 0.85;
-    display: inline-block;
-    font-size: 17px;
-    line-height: 20px;
-    text-decoration: none;
-    /* remove underline from anchors */
+    margin-top: 0;
   }
 
-  input:hover,
-  .btn:hover {
-    opacity: 1;
+    /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
   }
 
-  /* add appropriate colors to fb, twitter and google buttons */
-  .fb {
-    background-color: #3B5998;
-    color: white;
+  /* hide some text on medium and large screens */
+  .hide-md-lg {
+    display: none;
   }
 
-  .twitter {
-    background-color: #55ACEE;
-    color: white;
-  }
-
+  /* changes the properties of the google button */
   .google {
     padding: 12px 40px;
     border: 2px solid #2E2D31;
@@ -542,31 +371,6 @@ span.psw {
     background-color: white;
     color: #2E2D31;
     margin: 15px;
-  }
-
-  .center {
-    display: flex;
-    justify-content: center;
-  }
-
-  /* style the submit button */
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-  /* Two-column layout */
-  .col {
-    float: left;
-    width: 50%;
-    margin: auto;
-    padding: 0 50px;
-    margin-top: 6px;
   }
 
   /* Clear floats after the columns */
@@ -584,6 +388,10 @@ span.psw {
     border: 2px solid #ddd;
     height: 175px;
   }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
 
   /* text inside the vertical line */
   .vl-innertext {
@@ -595,37 +403,6 @@ span.psw {
     border-radius: 50%;
     padding: 8px 10px;
   }
-
-  /* hide some text on medium and large screens */
-  .hide-md-lg {
-    display: none;
-  }
-
-  /* bottom container */
-  .bottom-container {
-    text-align: center;
-    background-color: #666;
-    border-radius: 0px 0px 4px 4px;
-  }
-}
-
-#logo-container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 200px;
-}
-
-/* .logo {
-  background-image: url("images/crapmap-logo-white.png");
-  background-repeat: no-repeat;
-  height: 2000px;
-  width: 2000px;
-} */
-
-.fontsize {
-  font-size: 2em;
-  color: white;
 }
 
 #background-img {
@@ -637,4 +414,16 @@ span.psw {
    background-image: url("images/crapmap-landing-page.png");
    opacity: 1;
    z-index: -1;
+}
+
+#login-container {
+  display: flex;
+  justify-content: center;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 200px;
 }
