@@ -97,6 +97,29 @@ hr
   margin-right: 10%;
 }
 
+#tags
+{
+  height: 100px;
+  margin-left: 10%;
+}
+
+#navbar
+{
+  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#navbar i
+{
+  align-content: space-between;
+  color: white;
+  font-size: 30px;
+  margin-left: auto;
+}
+
 #post-button
 {
   background-color: transparent;
@@ -120,29 +143,6 @@ hr
 {
   background-color: white;
   color: limegreen;
-}
-
-#tags
-{
-  height: 100px;
-  margin-left: 10%;
-}
-
-#navbar
-{
-  align-content: space-between;
-  display: flex;
-  flex-direction: row;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#navbar i
-{
-  align-content: space-between;
-  color: white;
-  font-size: 30px;
-  margin-left: auto;
 }
 
 #couch-button
