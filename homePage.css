@@ -58,6 +58,13 @@
     position: fixed;
     top: -5px;
     width:250px;
+    z-index: 2;
+  }
+
+  .emoji-header {
+    opacity: .2;
+    position: fixed;
+    width:1600px;
     z-index: 1;
   }
 
