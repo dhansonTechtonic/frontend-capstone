@@ -43,7 +43,7 @@ hr {
 
 .card input {
   flex: 1;
-  height: 35px;
+  height: 30px;
   border: 2px solid white;
   margin-left: 3%;
   margin-right: 3%;
@@ -69,7 +69,6 @@ hr {
 }
 
 .container {
-  /* overflow: hidden; */
   min-width: 300px;
   max-width: 600px;
   margin-left: auto;
@@ -127,20 +126,6 @@ hr {
   margin-left: auto;
 }
 
-#trash-button {
-  margin-top: 10px;
-  color: white;
-  font-size: 50px;
-  margin-right: 5%;
-  margin-left: 3%;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-
-#trash-button:hover{
-  color: red;
-}
-
 #couch-button {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -184,4 +169,18 @@ hr {
 
 #random-button:hover {
   color: #00ffde;
+}
+
+#trash-button {
+  margin-top: 10px;
+  color: white;
+  font-size: 50px;
+  margin-right: 5%;
+  margin-left: 3%;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#trash-button:hover{
+  color: red;
 }

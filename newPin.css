@@ -4,7 +4,12 @@ body {
   background-color: #2E2D31;
 }
 
-
+input {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  padding-left: 10px;
+}
 
 h1 {
   text-align: center;
@@ -12,14 +17,6 @@ h1 {
   font-weight: lighter;
   letter-spacing: .25em;
   font-kerning: auto;
-}
-
-input {
-  background-color: transparent;
-  color: white;
-  font-size: 15px;
-  font-weight: lighter;
-  padding-left: 10px;
 }
 
 hr {
@@ -48,7 +45,6 @@ hr {
   flex: 1;
   height: 30px;
   border: 2px solid white;
-  color: white;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -72,12 +68,62 @@ hr {
   cursor: pointer;;
 }
 
-
 .container {
   min-width: 300px;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#image-button {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 50px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+#post-button {
+  flex: 1;
+  height: 60px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 40px;
+  letter-spacing: .25em;
+  margin-top: 10px;;
+  margin-left: 3%;
+  margin-right: 3%;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#post-button:hover {
+  background-color: white;
+  color: limegreen;
+}
+
+#tags {
+  height: 100px;
+  margin-left: 10%;
+}
+
+#navbar {
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#navbar i {
+  font-size: 30px;
+  color: white;
+  align-content: space-between;
+  margin-left: auto;
 }
 
 #couch-button {
@@ -123,54 +169,4 @@ hr {
 
 #random-button:hover {
   color: #00ffde;
-}
-
-#navbar {
-  display: flex;
-  align-content: space-between;
-  flex-direction: row;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#navbar i {
-  font-size: 30px;
-  color: white;
-  align-content: space-between;
-  margin-left: auto;
-}
-#image-button {
-  margin-left: auto;
-  margin-right: 10%;
-  font-size: 50px;
-  background-color: transparent;
-  border: none;
-  color: white;
-}
-
-#post-button {
-  flex: 1;
-  height: 60px;
-  background-color: transparent;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border: 2px solid white;
-  border-radius: 40px;
-  letter-spacing: .25em;
-  margin-top: 10px;;
-  margin-left: 3%;
-  margin-right: 3%;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-
-#post-button:hover {
-  background-color: white;
-  color: limegreen;
-}
-
-#tags {
-  height: 100px;
-  margin-left: 10%;
 }
