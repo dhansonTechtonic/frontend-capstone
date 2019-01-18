@@ -15,24 +15,6 @@ body {
   width: 100%;
 }
 
-.wrapper-container {
-  background-color: white;
-  margin: 50px auto;
-  width: 80%;
-  max-width: 600px;
-  max-height: 600px;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-.drop-shadow {
-  -moz-box-shadow: 0 0 5px #999;
-  -webkit-box-shadow: 0 0 5px #999;
-  box-shadow: 0 0 5px #999;
-}
-/* End of box styles for wrapper-container */
-
 .row-container {
   display: flex;
   flex-direction: row;
@@ -46,46 +28,41 @@ body {
 
 
 /* Action Buttons  */
-button {
+.dibs-button, .pass-button {
   padding: 12px 50px;
-  border: 2px solid #2E2D31;
+  border: 2px solid white;
   border-radius: 25px;
-  background-color: white;
-  color: #2E2D31;
+  background-color: transparent;
+  color: white;
   margin: 15px;
   text-align: center;
 }
-button:hover {
-  background-color: #2E2D31;
-  color: white;
+.dibs-button:hover, .pass-button:hover {
+  background-color: white;
+  color: #2E2D31;
   border: 2px solid white;
 }
 /* End of Action Buttons  */
 
 /* New styles */
-img {
+.view-pin-img {
   max-width: 600px;
   width: 100%;
   height: 100%;
 }
 
-.information-bar {
+.view-pin-information-bar {
   display: flex;
   background-color: #2E2D31;
   justify-content: center;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-}
-div {
+.dibs-pass-container {
   display: flex;
   flex-direction: row;
 }
 
-label {
+.view-pin-label {
   padding: 10px;
   color: white;
   font-weight: light;
@@ -94,7 +71,7 @@ label {
 
 }
 
-.pin-container {
+.view-pin-container {
 	display: flex;
   justify-content:center;
 }
@@ -110,28 +87,27 @@ label {
 
 
 /* Column container */
-.row {
+.view-pin-row {
   display: flex;
   justify-content: center;
-  /* width: 50%; */
 }
-.row-info {
+
+.view-pin-row-info {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   margin-left: 15px;
 }
 
 /* Main column */
-.main {
+.view-pin-main {
   flex: 70%;
   background-color: white;
   padding: 10px;
   max-width: 600px;
 }
 
-.button-container {
+.view-pin-button-container {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -146,7 +122,7 @@ label {
 
 /* Media Queries */
 @media screen and (max-width: 700px) {
-  .row, .information-bar {
+  .view-pin-row, .view-pin-information-bar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -160,14 +136,9 @@ label {
   .fakeimg {
     height: 1500px;
   }
-  button {
+  .dibs-button, .pass-button {
     padding: 12px 50px;
-    border: 2px solid #2E2D31;
-    border-radius: 25px;
-    background-color: white;
-    color: #2E2D31;
     margin: 7px;
-    text-align: center;
   }
   .box-icon {
     color: white;
@@ -175,4 +146,5 @@ label {
     margin: 15px;
     flex: 1;
   }
+
 }
