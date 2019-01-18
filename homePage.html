@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="homePage.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!-- Navigation Bar w/ options-->
+    <img src="assets/crapmap-logo-horizontal-gray.png" class="logo">
+    <!-- <img src="assets/crapmap-header.png" class="emoji-header"> -->
+    <nav class="navbar">
+        <ul class="main-nav-list" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">HOME</a>
+            </li>
+            <li>
+              <a href="#" class="nav-links">MY PINS</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">SEARCH</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">SETTINGS</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">LOGOUT</a>
+            </li>
+
+            <li>
+              <a href="#" class="hamburger-menu"><i class="fa fa-bars"></i></a>
+            </li>
+        </ul>
+      </nav>
+
+      <!-- Navigation Bar with bars -->
+      <!-- <nav class="navbar">
+          <a href="#" class="logo">logo<i class="fas fa-user-astronaut logo-icon"></i></a>
+          <ul class="main-nav-list" id="js-menu">
+              <li>
+                <i class="fas fa-bars white"></i>
+              </li>
+          </ul>
+        </nav> -->
+
+<!-- Search bar toggles on click > slides down from navbar-->
+      <nav class="search-bar drop-shadow">
+        <ul class="main-search-list" id="search-menu">
+          <li>
+              <input class="search-input" type="text" name="searchBar" size="300" placeholder="SEARCH">
+          </li>
+          <li>
+            <i class="x-reversed fas fa-times"></i>
+          </li>
+        </ul>
+      </nav>
+
+    <!-- Image Body with location pin-->
+    <div class="pin-marker-container">
+      <img class="marker-style" src="assets/crapmap-locator.png" alt="">
+    </div>
+
+    <!-- Bottom buttons-for adding a new pin/zoom  -->
+    <div class="button-container" id="button-container-target">
+      <div class="button-child">
+        <button type="button" name="button"><i class="new-pin-button fas fa-plus-circle"></i></button>
+      </div>
+    </div>
+
+  </body>
+
+</html>
