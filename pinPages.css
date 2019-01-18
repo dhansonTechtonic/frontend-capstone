@@ -26,7 +26,7 @@ input {
   width: 90%;
 }
 
-.content {
+.pin-card-content {
   color: #1c1c1c;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@ input {
   margin-left: auto;
 }
 
-#post-button {
+#new-post-button {
   background-color: transparent;
   border: 2px solid white;
   border-radius: 40px;
@@ -122,7 +122,32 @@ input {
   -webkit-transition-duration: 0.3s;
 }
 
-#post-button:hover {
+#new-post-button:hover {
+  background-color: white;
+  color: limegreen;
+}
+
+#save-post-button
+{
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 40px;
+  color: white;
+  flex: 1;
+  font-size: 20px;
+  font-weight: bold;
+  height: 60px;
+  letter-spacing: 7px;
+  margin-top: 10px;
+  margin-right: 3%;
+  width: 50px;
+
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#save-post-button:hover
+{
   background-color: white;
   color: limegreen;
 }
@@ -170,4 +195,20 @@ input {
 
 #random-button:hover {
   color: #00ffde;
+}
+
+#trash-button
+{
+  color: white;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-left: 3%;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#trash-button:hover
+{
+  color: red;
 }
