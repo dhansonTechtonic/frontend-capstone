@@ -9,7 +9,7 @@
   }
 
   .home-page-body {
-    background-image: url("assetsHome/mapPlaceHolder.png");
+    background-image: url("../images/mapPlaceHolder.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
