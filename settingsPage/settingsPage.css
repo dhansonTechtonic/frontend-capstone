@@ -89,7 +89,7 @@
 
 .delete-account-button:hover {
   background-color: white;
-  color: limegreen;
+  color: red;
 }
 
 .form-container {
