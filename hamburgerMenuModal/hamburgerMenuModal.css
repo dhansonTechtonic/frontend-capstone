@@ -1,13 +1,8 @@
-/* Colors
-  Greenish: #00FFDE;
-  Blue: #5200E8;
-  Grey: #2E2D31;
-*/
-
 hr {
-height: 5px;
-background-image: linear-gradient(260deg, #FF4700, #5200E8, #00FFDE);
-border: none;
+  background-image: linear-gradient(260deg, #FF4700, #5200E8, #00FFDE);
+  border: none;
+  height: 2px;
+  width: 90%;
 }
 
 .hamburger-menu-modal {
@@ -20,6 +15,18 @@ border: none;
 
 .search-bar {
   position: relative;
+}
+
+.my-pins-link:hover {
+  color: #00ffde;
+}
+
+.settings-link:hover {
+  color: #5200e8;
+}
+
+.log-out-link:hover {
+  color: #ff4700;
 }
 
 .search-bar > input {
