@@ -12,14 +12,6 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-}
-
-footer {
-  padding-bottom: 5%;
-  width: 80%;
-=======
->>>>>>> dcd368645c273e045bcaace6432b0a03b9389689
 }
 
 hr {
@@ -27,14 +19,11 @@ hr {
   border: none;
   height: 5px;
   width: 100%;
-<<<<<<< HEAD
-=======
 }
 
 footer {
   padding-bottom: 5%;
   width: 80%;
->>>>>>> dcd368645c273e045bcaace6432b0a03b9389689
 }
 
 .body-flex {
@@ -125,15 +114,6 @@ footer {
 }
 
 input[type=range] {
-<<<<<<< HEAD
-  background: transparent;
-  /* Otherwise white in Chrome */
-  margin: 18px 0;
-  -webkit-appearance: none;
-  /* Hides the slider so that custom slider can be made */
-  width: 100%;
-  /* Specific width is required for Firefox. */
-=======
   /* Specific width is required for Firefox. */
   background: transparent;
   -webkit-appearance: none;
@@ -141,7 +121,6 @@ input[type=range] {
   width: 100%;
   /* Otherwise white in Chrome */
   margin: 18px 0;
->>>>>>> dcd368645c273e045bcaace6432b0a03b9389689
   width: 100%;
 }
 
@@ -149,20 +128,11 @@ input[type=range]::-webkit-slider-thumb {
   background: #5200E8;
   border: 1px solid #000000;
   border-radius: 3px;
-<<<<<<< HEAD
-  cursor: pointer;
-  height: 36px;
-  margin-top: -14px;
-  width: 16px;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
-=======
   height: 36px;
   cursor: pointer;
   margin-top: -14px;
   -webkit-appearance: none;
   width: 16px;
->>>>>>> dcd368645c273e045bcaace6432b0a03b9389689
 }
 
 input[type=range]:focus {
@@ -209,13 +179,6 @@ input[type=range]::-moz-range-thumb {
   cursor: pointer;
   height: 36px;
   width: 16px;
-<<<<<<< HEAD
-}
-
-input[type=range]::-ms-track {
-
-=======
->>>>>>> dcd368645c273e045bcaace6432b0a03b9389689
 }
 
 input[type=range]::-ms-fill-lower {
